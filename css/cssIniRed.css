@@ -1,0 +1,601 @@
+/* Estilos para la navbar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #6b0000; /* Fondo rojizo */
+}
+
+/* Navbar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff; /* Fondo blanco para la navbar */
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo de la izquierda */
+.navbar-logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Hacerlo circular */
+}
+
+/* Barra de búsqueda en el centro */
+.navbar-search {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-input {
+    width: 700px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    padding-left: 40px; /* Espacio para la lupa */
+    position: relative;
+}
+
+/* Estilo para el icono */
+.search-input::placeholder {
+    color: #aaa; /* Ajustar color del placeholder */
+    padding-left: 0px; /* Ajuste para que no se solape con el icono */
+}
+
+/* Estilo para el icono */
+.search-input-icon {
+    position: absolute;
+    left: 10px; /* Alineación del ícono */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #aaa;
+}
+
+
+
+/* Enlaces de la navbar */
+.navbar-links {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.navbar-link {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #6b0000; /* Color rojo oscuro */
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.navbar-link:hover {
+    color: #a50000; /* Cambio de color al pasar el mouse */
+}
+
+/* Imagen de perfil en la derecha */
+.navbar-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Imagen circular */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.left-column, .right-column {
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+.center-column {
+    width: 55%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #5c0000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la carta */
+.card {
+    display: flex;
+    background-color: #d3c4c4;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.card-content {
+    display: flex;
+}
+
+.card-img {
+    margin-top: 10px;
+    width: 80px; /* Imagen pequeña a la izquierda */
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    /* border: 1px black solid; */
+    margin-right: -20px;
+}
+
+.text-content {
+    margin-left: 10px;
+}
+
+.solicitante-nombre {
+    font-size: 16px;
+    color: #333;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #8b0000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+button:hover {
+    background-color: #a50000;
+}
+
+
+
+/* Amigos------------------ */
+.card_frens {
+    display: flex;
+    background-color: #bab7b7;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.card-content_frens {
+    display: flex;
+    align-items: center;
+}
+
+.card-img_frens {
+    width: 40px; /* Tamaño pequeño de la foto de perfil */
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%; /* Para hacerlo circular */
+}
+
+.text-content_frens {
+    margin-left: 10px;
+}
+
+.friend-name_frens {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para el formulario y la columna central */
+.central-column {
+    width: 60%;
+    margin: 20px auto; /* Para centrar la columna */
+}
+
+.form-container_coment {
+    margin-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/* Cabecera del formulario */
+.profile-header_coment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img_coment {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.thinking-input_coment {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Estilos para los botones */
+.button-row_coment {
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_coment {
+    width: 150px;
+    padding: 7px 20px;
+    background-color: #8b0000;
+    font-weight: bold;
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn_coment:hover {
+    background-color: #370000;
+}
+
+/* Estilos para los modales */
+.modal_coment {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content_coment {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header_coment {
+    display: flex;
+    align-items: center;
+}
+
+.modal-profile-img_coment {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.modal-user-info_coment {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-username_coment {
+    font-weight: bold;
+}
+
+textarea.modal-textarea_coment {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.modal-buttons_coment {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modal-buttons_coment .btn_coment {
+    width: 30%;
+}
+
+.modal-select_coment {
+    margin-top: 10px;
+}
+
+/* Estilos para el botón de cierre (X) */
+.close-modal_coment {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+
+.close-modal_coment:hover {
+    color: #f00; /* Color rojo al pasar el ratón por encima */
+}
+
+
+
+
+/* Modal Principal */
+.modal_coment {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+    z-index: 9999; /* Asegura que el modal esté encima de otros elementos */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenido del Modal */
+.modal-content_coment {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative; /* Para posicionar el botón X */
+    width: 500px;
+}
+
+/* Botón de Cierre (X) */
+.close-modal_coment {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    z-index: 10000; /* Asegura que el botón esté encima */
+}
+
+/* Cambio de color al pasar el ratón */
+.close-modal_coment:hover {
+    color: red;
+}
+
+
+
+
+
+
+/* Estilo para la sección de previsualización */
+.modal-previews_coment {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.modal-previews_coment .preview-item_coment {
+    position: relative;
+    width: 70px; /* Tamaño de la imagen o video */
+    height: 70px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.modal-previews_coment .preview-item_coment img,
+.modal-previews_coment .preview-item_coment video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-previews_coment .preview-item_coment .remove-btn_coment {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.modal-previews_coment .preview-item_coment .remove-btn_coment:hover {
+    background-color: red;
+}
+
+
+
+.toast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publicaciones-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carta {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carta-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usuario-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-img_coment {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.media-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.media-item {
+    width: 48%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.editar-btn, .eliminar-btn {
+    padding: 5px 10px;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.editar-btn:hover, .eliminar-btn:hover {
+    background: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar-links {
+        margin-top: 10px;
+    }
+
+    .navbar-profile img {
+        width: 25px;
+        height: 25px;
+    }
+}

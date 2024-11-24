@@ -1,0 +1,145 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #6b0000; /* Fondo rojizo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Caja blanca */
+.login-box {
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 90%; /* Ancho flexible */
+    max-width: 300px; /* Limitar ancho máximo */
+    text-align: center;
+    height: 400px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/* Imagen de perfil */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Hacer la imagen circular */
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+/* Inputs de usuario y contraseña */
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Link de registro */
+.register-link {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #8b0000; /* Rojo oscuro */
+
+}
+
+#formInicio label{
+    text-align: left;
+    color: #6b0000;
+    font-weight: bold;
+
+}
+
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+/* Botón de iniciar sesión */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8b0000; /* Rojo oscuro */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #a50000; /* Rojo más claro */
+}
+
+
+
+
+
+
+
+
+.tam60{
+    width: 60%;
+    text-align: left;
+
+}
+
+
+
+
+
+
+/* ---------------- RESPONSIVIDAD ---------------- */
+/* Dispositivos pequeños (teléfonos en modo vertical) */
+@media (max-width: 480px) {
+    .login-box {
+        padding: 15px;
+    }
+
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .login-input {
+        font-size: 12px;
+    }
+
+    .register-link {
+        font-size: 12px;
+    }
+
+    .login-button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* Dispositivos medianos (tabletas en modo vertical y horizontal) */
+@media (max-width: 768px) {
+    .login-box {
+        max-width: 400px;
+    }
+
+    .profile-img {
+        width: 90px;
+        height: 90px;
+    }
+}
