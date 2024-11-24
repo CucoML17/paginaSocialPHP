@@ -1,0 +1,33 @@
+IDPublicacion | IDUsuario | Comentario | Imagenes | Videos | Privacidad | Fecha | Hora
+9 | 5 | Ayuda | php/imagenesPubli/fondo29.png,php/imagenesPubli/WhatsApp Image 2024-11-14 at 5.44.38 PM (1)9.jpeg | php/videosPubli/Vídeo_SerieFibonacci_Modificada9.mp4,php/videosPubli/PreparacionDatos_VideoAyuda9.mp4 | Público | 2024-11-20 | 03:55:36
+10 | 5 | A | nono | php/videosPubli/Vídeo_SerieFibonacci_Modificada10.mp4 | Amigos | 2024-11-20 | 03:56:27
+11 | 5 | LALALALA | php/imagenesPubli/gnormal_edit11.png | php/videosPubli/Preparación de Datos - Machine Learning aprendizaje automático (online-video-cutter.com)_edit11.mp4 | Público | 2024-11-20 | 15:58:3212 | 2 | En dolor | php/imagenesPubli/btnnopresio12.png | nono | Amigos | 2024-11-20 | 15:59:58
+12 | 2 | sdfsdfsd | nono | nono | Amigos | 2024-11-20 | 16:03:33
+13 | 2 | asdasdasd | php/imagenesPubli/btnnopresio13.png | nono | Amigos | 2024-11-20 | 16:03:43
+14 | 2 | Juana | nono | php/videosPubli/Vídeo_SerieFibonacci_Modificada14.mp4 | Amigos | 2024-11-20 | 16:04:53
+15 | 7 | ffFFF | php/imagenesPubli/fondo215.png | nono | Amigos | 2024-11-20 | 16:05:34
+16 | 1 | ADADA | php/imagenesPubli/jessie_edit16.PNG | php/videosPubli/PreparacionDatos_VideoAyuda_edit16.mp4 | Amigos | 2024-11-20 | 16:07:2017 | 5 | ASD | php/imagenesPubli/fondo217.png | nono | Amigos | 2024-11-20 | 16:07:59
+17 | 5 | gfds | nono | nono | Amigos | 2024-11-20 | 16:08:13
+18 | 5 | LALALAALKAKAKAKA | php/imagenesPubli/perro_edit18.jfif | php/videosPubli/Vídeo_SerieFibonacci_Modificada_edit18.mp4 | Amigos | 2024-11-20 | 20:06:49
+19 | 5 | AYAYAYA | php/imagenesPubli/btnnopresio_edit19.png | php/videosPubli/PreparacionDatos_VideoAyuda_edit19.mp4 | Público | 2024-11-20 | 21:46:00
+20 | 2 |  | nono | php/videosPubli/Vídeo_SerieFibonacci_Modificada20.mp4 | Amigos | 2024-11-20 | 16:09:35
+21 | 3 |  | php/imagenesPubli/fondo221.png | nono | Amigos | 2024-11-20 | 16:10:06
+22 | 2 |  | php/imagenesPubli/chesed22.jpg | nono | Amigos | 2024-11-20 | 16:10:30
+23 | 4 |  | php/imagenesPubli/lobe23.PNG | nono | Amigos | 2024-11-20 | 16:14:38
+24 | 4 | asdasda | php/imagenesPubli/btnpresio24.png | nono | Amigos | 2024-11-20 | 16:14:55
+25 | 4 | asdasdasd | php/imagenesPubli/btnpresio25.png | nono | Amigos | 2024-11-20 | 16:15:26
+26 | 9 | Adiós | php/imagenesPubli/circulo_edit26.png | php/videosPubli/Preparación de Datos - Machine Learning aprendizaje automático (online-video-cutter.com)_edit26.mp4 | Público | 2024-11-20 | 16:34:2727 | 5 | Juana | nono | nono | Amigos | 2024-11-20 | 23:10:12
+27 | 5 | Ayudaaaaa | nono | nono | Amigos | 2024-11-20 | 23:48:32
+28 | 5 | AaAaAaAa | nono | nono | Amigos | 2024-11-20 | 23:51:15
+29 | 5 | 12311111111111 | nono | nono | Amigos | 2024-11-21 | 00:00:25
+30 | 5 |  | php/imagenesPubli/btnpresio30.png | nono | Amigos | 2024-11-21 | 00:00:40
+31 | 5 | aaaaa | php/imagenesPubli/WhatsApp Image 2024-11-14 at 5.44.38 PM (1)31.jpeg,php/imagenesPubli/fondo231.png | php/videosPubli/Vídeo_SerieFibonacci_Modificada31.mp4 | Amigos | 2024-11-21 | 00:00:56
+33 | 5 | Poñoñin | php/imagenesPubli/WhatsApp Image 2024-09-18 at 12.32.04 PM (1)33.jpeg | nono | Amigos | 2024-11-21 | 02:03:30
+34 | 5 | Juanjo | php/imagenesPubli/marte234.png | nono | Amigos | 2024-11-22 | 19:15:31
+35 | 5 | adasdasdas | nono | nono | Amigos | 2024-11-22 | 19:21:49
+36 | 5 | kjhgfdsa | nono | php/videosPubli/Vídeo_SerieFibonacci_Modificada36.mp4 | Amigos | 2024-11-22 | 19:21:58
+37 | 5 | hgfdsa | nono | nono | Amigos | 2024-11-22 | 19:28:12
+38 | 5 | DOLOR | php/imagenesPubli/tc1_edit38.png | php/videosPubli/Vídeo_SerieFibonacci_Modificada_edit38.mp4 | Amigos | 2024-11-22 | 19:28:37
+39 | 5 | Ayuda3 | php/imagenesPubli/tc1_edit39.png | php/videosPubli/Vídeo_SerieFibonacci_Modificada_edit39.mp4 | Amigos | 2024-11-22 | 19:31:36
+40 | 5 | será que sí | nono | nono | Público | 2024-11-22 | 19:31:49
+41 | 5 | kkkkk | php/imagenesPubli/tc241.png | nono | Amigos | 2024-11-22 | 21:02:20

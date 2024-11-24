@@ -1,0 +1,10 @@
+IDUsuario | Nombre | Usuario | Correo | Sexo | Fecha de Nacimiento | Imagen | Contraseña
+1 | D'Arce | D123 | bambino7576@gmail.com | Femenino | 2005-02-22 | imagenes/chesed.jpg | 123
+2 | Yui | Y123 | bambino7576@gmail.com | Femenino | 2024-11-11 | imagenes/btnpresio.png | 123
+3 | Lolo | L123 | bambino7576@gmail.com | No Binario | 2024-07-11 | imagenes/fondo1.jpg | 123
+4 | Pollo | Juana123 | bambino7576@gmail.com | No Binario | 2002-01-13 | imagenes/chesed.jpg | 123
+5 | Coco Adrian AaraS | A123 | bambino7576@gmail.com | Masculino | 1990-05-19 | imagenes/tc2.png | 123
+6 | Coco23 | B123 | bambino7576@gmail.com | Masculino | 1995-11-19 | imagenes/circulo.png | 123
+7 | Coco23 | C123 | bambino7576@gmail.com | Masculino | 1998-05-19 | imagenes/fondo2.png | 123
+8 | Coco | Y12322 | bambino7576@gmail.com | Femenino | 1986-05-29 | imagenes/btnpresio.png | 123
+9 | Jojo | J123 | bambino7576@gmail.com | Masculino | 1983-01-20 | imagenes/chesed.jpg | 123
